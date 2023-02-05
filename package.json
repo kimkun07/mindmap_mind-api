@@ -2,8 +2,8 @@
   "name": "@kimkun07/mindmap_mind-api",
   "version": "0.0.2",
   "description": "mind-api",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "package.json",
     "dist"
@@ -13,5 +13,9 @@
     "build": "tsc"
   },
   "author": "kimkun07 <kimkun07@naver.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimkun07/mindmap_mind-api"
+  },
   "license": "MIT"
 }
