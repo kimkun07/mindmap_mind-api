@@ -1,0 +1,17 @@
+{
+  "name": "@kimkun07/mindmap_mind-api",
+  "version": "0.0.2",
+  "description": "mind-api",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "package.json",
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "kimkun07 <kimkun07@naver.com>",
+  "license": "MIT"
+}
