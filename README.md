@@ -7,7 +7,7 @@ Related Link
 
 - [NPM package](https://www.npmjs.com/package/@kimkun07/mindmap_mind-api)
 - [mind-elixir-core-revised](https://github.com/kimkun07/mindmap_mind-elixir-core-revised)
-- [Server - Notion Subpage Tree](https://github.com/kimkun07/mindmap_notion-page-tree)
+- [Server - Notion Subpage Tree](https://github.com/kimkun07/mindmap_notion-subpage-tree)
 - [Client - Mindmap Drawer](https://github.com/kimkun07/mindmap_mind-elixir-client)
 
 <details>
