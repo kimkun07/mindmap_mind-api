@@ -1,7 +1,7 @@
 ## About
 
 `mind-api` is an API for `MindElixir` Project.\
-It can be used for an endpoint of server providing tree for a mindmap.
+It is used for an endpoint of server providing data for a mindmap.
 
 Related Link
 
