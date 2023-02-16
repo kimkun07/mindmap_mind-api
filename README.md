@@ -3,7 +3,7 @@
 `mind-api` is an API for `MindElixir` Project.\
 It can be used for an endpoint of server providing tree for a mindmap.
 
-Related Page
+Related Link
 
 - [NPM package](https://www.npmjs.com/package/@kimkun07/mindmap_mind-api)
 - [mind-elixir-core-revised](https://github.com/kimkun07/mindmap_mind-elixir-core-revised)
@@ -60,14 +60,13 @@ let mindResponse: MindResponse = await httpResponse.json();
 
 ## How to develop
 
-1. Change `index.ts`
-2. Publish to npm
+1. Publish to npm
    ```bash
    npm run build
    npm version patch
    npm publish --access public
    ```
-3. Update from usage
+2. Update from usage
    ```bash
    npm outdated
    npm update @kimkun07/mindmap_mind-api
