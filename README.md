@@ -14,13 +14,10 @@ Related Page
 <summary>Table of Contents</summary>
 
 - [How to use](#how-to-use)
-  - [Install `mind-api`](#install--mind-api-)
-  - [Provide `MindResponse`](#provide--mindresponse-)
-  - [Fetch `MindResponse`](#fetch--mindresponse-)
-  - [Use `MindElixir` (근데 얘는 mind-elixir-core에 들어가야겠다)](#use--mindelixir---------mind-elixir-core---------)
+  - [Install `mind-api`](#install-mind-api)
+  - [Provide `MindResponse`](#provide-mindresponse)
+  - [Fetch `MindResponse`](#fetch-mindresponse)
 - [How to develop](#how-to-develop)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 </details>
 
@@ -31,7 +28,6 @@ Related Page
   - Provide `MindResponse`
 - Client
   - Fetch `MindResponse`
-  - Use `MindElixir`
 
 ### Install `mind-api`
 
@@ -62,22 +58,6 @@ let httpResponse = await fetch(url);
 let mindResponse: MindResponse = await httpResponse.json();
 ```
 
-### Use `MindElixir` (근데 얘는 mind-elixir-core에 들어가야겠다)
-
-```ts
-// @ts-ignore
-import MindElixir from "@kimkun07/mindmap_mind-elixir-core-revised";
-
-// Initialize MindElixir
-mindelixir: any = new MindElixir(sample_mindmap_options);
-mindelixir.init(MindElixir.new("new topic"));
-
-// Update MindElixir
-mindelixir.nodeData = nodeData;
-mindelixir.linkData = {};
-mindelixir.refresh();
-```
-
 ## How to develop
 
 1. Change `index.ts`
@@ -87,8 +67,8 @@ mindelixir.refresh();
    npm version patch
    npm publish --access public
    ```
-3. Update from usage (실제 테스트 필요)
+3. Update from usage
    ```bash
    npm outdated
-   npm update
+   npm update @kimkun07/mindmap_mind-api
    ```
