@@ -1,4 +1,4 @@
-# About
+## About
 
 `mind-api` is an API for `MindElixir` Project.\
 It can be used for an endpoint of server providing tree for a mindmap.
@@ -24,7 +24,7 @@ Related Page
 
 </details>
 
-# How to use
+## How to use
 
 - Install `mind-api`
 - Server
@@ -33,13 +33,13 @@ Related Page
   - Fetch `MindResponse`
   - Use `MindElixir`
 
-## Install `mind-api`
+### Install `mind-api`
 
 ```bash
 npm i @kimkun07/mindmap_mind-api -D
 ```
 
-## Provide `MindResponse`
+### Provide `MindResponse`
 
 ```ts
 import { MindResponse } from "@kimkun07/mindmap_mind-api";
@@ -53,7 +53,7 @@ server.get("/", async function (req: Request, res: Response) {
 });
 ```
 
-## Fetch `MindResponse`
+### Fetch `MindResponse`
 
 ```ts
 import { MindResponse } from "@kimkun07/mindmap_mind-api";
@@ -62,7 +62,7 @@ let httpResponse = await fetch(url);
 let mindResponse: MindResponse = await httpResponse.json();
 ```
 
-## Use `MindElixir` (근데 얘는 mind-elixir-core에 들어가야겠다)
+### Use `MindElixir` (근데 얘는 mind-elixir-core에 들어가야겠다)
 
 ```ts
 // @ts-ignore
@@ -78,7 +78,7 @@ mindelixir.linkData = {};
 mindelixir.refresh();
 ```
 
-# How to develop
+## How to develop
 
 1. Change `index.ts`
 2. Publish to npm
