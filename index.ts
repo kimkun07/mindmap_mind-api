@@ -1,4 +1,4 @@
-// mind-elixir-core/src/index.ts 참고
+// Check mind-elixir-core/src/index.ts
 
 export interface MindResponse {
   status: string;
@@ -8,7 +8,7 @@ export interface NodeObj {
   topic: string;
   parent?: NodeObj;
   style?: StyleObj;
-  id?: string; // original mind-elixir-core 에서는 not nullable
+  id?: string; // Note: not nullable in original mind-elixir-core
   children?: NodeObj[];
   tags?: string[];
   icons?: string[]; // -> <span>${encodeHTML(icon)}</span>
