@@ -32,7 +32,7 @@ Related Link
 ### Install `mind-api`
 
 ```bash
-npm i @kimkun07/mindmap_mind-api -D
+npm i -D @kimkun07/mindmap_mind-api
 ```
 
 ### Provide `MindResponse`

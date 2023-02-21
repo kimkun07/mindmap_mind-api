@@ -16,6 +16,11 @@ export interface NodeObj {
   expanded?: boolean;
   direction?: number;
   root?: boolean;
+  image?: {
+    url: string;
+    width: number;
+    height: number;
+  };
 }
 export interface StyleObj {
   color?: string; // default: 'inherit'
